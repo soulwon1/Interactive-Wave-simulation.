@@ -1,0 +1,19 @@
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\Alex\OneDrive\Desktop\repos\GroupProjectSemester2PartA\RLC Graph V3\Form1.h(241,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\Alex\OneDrive\Desktop\repos\GroupProjectSemester2PartA\RLC Graph V3\Form1.h(241,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\Alex\OneDrive\Desktop\repos\GroupProjectSemester2PartA\RLC Graph V3\Form1.h(244,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\Alex\OneDrive\Desktop\repos\GroupProjectSemester2PartA\RLC Graph V3\Form1.h(260,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\Alex\OneDrive\Desktop\repos\GroupProjectSemester2PartA\RLC Graph V3\Form1.h(261,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  RLC Graph V3.vcxproj -> C:\Users\Alex\OneDrive\Desktop\repos\GroupProjectSemester2PartA\RLC Graph V3\x64\Debug\RLC Graph V3.exe

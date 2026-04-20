@@ -1,0 +1,3 @@
+C:\Users\Alex\OneDrive\Desktop\repos\GroupProjectSemester2PartA\RLC Graph V3\RLC Graph V3\x64\Debug\RLC Graph V3.vcxproj.AssemblyReference.cache
+C:\Users\Alex\OneDrive\Desktop\repos\GroupProjectSemester2PartA\RLC Graph V3\RLC Graph V3\x64\Debug\RLC_Graph_V3.Form1.resources
+C:\Users\Alex\OneDrive\Desktop\repos\GroupProjectSemester2PartA\RLC Graph V3\RLC Graph V3\x64\Debug\RLC Graph V3.vcxproj.GenerateResource.cache
