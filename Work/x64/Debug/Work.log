@@ -1,0 +1,9 @@
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\ArrowThings.h(7,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Form1.h(250,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Work.vcxproj -> C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\x64\Debug\Work.exe

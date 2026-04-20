@@ -1,0 +1,6 @@
+C:\Users\qw0971\source\repos\Work\Work\x64\Debug\Work.vcxproj.AssemblyReference.cache
+C:\Users\qw0971\source\repos\Work\Work\x64\Debug\Work.Form1.resources
+C:\Users\qw0971\source\repos\Work\Work\x64\Debug\Work.vcxproj.GenerateResource.cache
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\x64\Debug\Work.vcxproj.AssemblyReference.cache
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\x64\Debug\Work.Form1.resources
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\x64\Debug\Work.vcxproj.GenerateResource.cache
