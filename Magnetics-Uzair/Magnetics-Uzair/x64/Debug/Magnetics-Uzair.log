@@ -1,0 +1,5 @@
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\Ezrah\Documents\Coding wokr\Magnetics-Uzair\MagneticfieldSimulator.h(78,1): warning C4700: uninitialized local variable 'mx' used
+C:\Users\Ezrah\Documents\Coding wokr\Magnetics-Uzair\MagneticfieldSimulator.h(78,1): warning C4700: uninitialized local variable 'my' used
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Magnetics-Uzair.vcxproj -> C:\Users\Ezrah\Documents\Coding wokr\Magnetics-Uzair\x64\Debug\Magnetics-Uzair.exe

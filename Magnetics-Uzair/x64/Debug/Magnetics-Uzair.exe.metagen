@@ -1,0 +1,37 @@
+  Magnetics_Uzair.Form1.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Magnetics-Uzair, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class MagneticSimWrapper: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    AddMagnet(Double, Double, Double, Double, Double, Double): PrivateScope, Public, HideBySig
+    Step(Double): PrivateScope, Public, HideBySig
+    GetMagnetCount(): PrivateScope, Public, HideBySig
+    GetMagnetPosition(Int32, Double&, Double&): PrivateScope, Public, HideBySig
+    GetMagnetAngle(Int32): PrivateScope, Public, HideBySig
+    GetField(Double, Double, Double* IsImplicitlyDereferenced, Double&): PrivateScope, Public, HideBySig
+    GetFieldLines(): PrivateScope, Public, HideBySig
+    SetMagnetPosition(Int32, Double, Double): PrivateScope, Public, HideBySig
+    SetMagnetAngle(Int32, Double): PrivateScope, Public, HideBySig
+    SetMagnetVelocity(Int32, Double, Double): PrivateScope, Public, HideBySig
+    FlipMagnet(Int32): PrivateScope, Public, HideBySig
+    AddMagnetAt(Double, Double): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class CppCLRWinFormsProject.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

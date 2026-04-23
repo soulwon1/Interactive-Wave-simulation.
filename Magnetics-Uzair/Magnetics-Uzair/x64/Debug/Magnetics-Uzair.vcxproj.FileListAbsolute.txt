@@ -1,0 +1,3 @@
+C:\Users\Ezrah\Documents\Coding wokr\Magnetics-Uzair\Magnetics-Uzair\x64\Debug\Magnetics-Uzair.vcxproj.AssemblyReference.cache
+C:\Users\Ezrah\Documents\Coding wokr\Magnetics-Uzair\Magnetics-Uzair\x64\Debug\Magnetics_Uzair.Form1.resources
+C:\Users\Ezrah\Documents\Coding wokr\Magnetics-Uzair\Magnetics-Uzair\x64\Debug\Magnetics-Uzair.vcxproj.GenerateResource.cache
