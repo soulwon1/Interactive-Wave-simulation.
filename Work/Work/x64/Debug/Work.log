@@ -1,0 +1,29 @@
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(45,113): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(90,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(102,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(102,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(109,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(109,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(163,50): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(163,50): warning C4244:         with
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(163,50): warning C4244:         [
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(163,50): warning C4244:             _Ty=double
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(163,50): warning C4244:         ]
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(163,38): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(163,38): warning C4244:         with
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(163,38): warning C4244:         [
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(163,38): warning C4244:             _Ty=double
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Classes.h(163,38): warning C4244:         ]
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\ArrowThings.h(10,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Form1.h(79,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Form1.h(82,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Form1.h(83,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Form1.h(497,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Form1.h(505,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Form1.h(674,71): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Form1.h(677,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Form1.h(691,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\Work\Form1.h(699,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Work.vcxproj -> C:\Users\qw0971\OneDrive - Loughborough University\c++\ProjectSem2\Work\x64\Debug\Work.exe
