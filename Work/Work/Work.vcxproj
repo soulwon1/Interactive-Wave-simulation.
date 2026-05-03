@@ -134,12 +134,16 @@
     <ClInclude Include="Arrows.h" />
     <ClInclude Include="ArrowThings.h" />
     <ClInclude Include="Classes.h" />
+    <ClInclude Include="EFieldCalc.h" />
     <ClInclude Include="EFieldForce.h" />
     <ClInclude Include="EFieldGrid.h" />
+    <ClInclude Include="ELineField.h" />
     <ClInclude Include="Form1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Header.h" />
+    <ClInclude Include="InducedMagField.h" />
+    <ClInclude Include="inspectCalculator1.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
   </ItemGroup>

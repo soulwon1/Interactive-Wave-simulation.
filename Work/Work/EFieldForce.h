@@ -1,5 +1,4 @@
 #pragma once
-
 #include <iostream>
 #include <cmath>
 #include <vector>
@@ -67,7 +66,7 @@ Vec2D ForceCalc(vector<Charge> Q, double x, double y, Charge q) {
 }
 
 //Update coords function. Need to get the dx and dy to add in tick function in forms.
-Vec2D dCords(Charge& q, Vec2D f, double dt) {
+Vec2D dqCords(Charge& q, Vec2D f, double dt) {
 
 	Vec2D c;
 	q.addVx((f.getX() / q.getM()) * dt);
@@ -86,7 +85,35 @@ double testVDir(Charge q) {
 	return atan2(q.getVy(), q.getVx());
 }
 
-void totFDir() {//using vector of Vec2D
+Vec2D forceTwoQ(Charge Q1, Charge Q2) {
+	Vec2D force;
+	double dx = Q1.getX() - Q2.getX();
+	double dy = Q1.getY() - Q2.getY();
+	double r = sqrt(dx * dx + dy * dy);
+	//if (r < Q1.getDiameter() / 2) r = Q1.getDiameter() / 2;
+	double eps = Q1.getDiameter() / 2;
+	r = sqrt(r * r + eps * eps);
+	//if (r < 1) r = 1;
+	double k = 1.0;
+	double mag = k * (Q1.getQ() * Q2.getQ()) / (r * r);
+	double dir = atan2(Q1.getY() - Q2.getY(), Q1.getX() - Q2.getX());
 
+	double scale = 5e6;
+	double Fx = mag * (dx/r); //having to use unit veector since angle was breaking when neg q and pos q got too close
+	double Fy = mag * (dy/r);
+
+	force = Vec2D(Fx*scale, Fy*scale);
+	return force;
+}
+
+void allQscreenCollision(vector<Charge>& Q, int screenWidth, int screenHeight) {
+
+	for (int i = 0; i < Q.size(); ++i) {
+		if (Q[i].getY() >= screenHeight - Q[i].getDiameter()/2) Q[i].setY(screenHeight-Q[i].getDiameter() / 2);
+		if (Q[i].getX() >= screenWidth - Q[i].getDiameter()/2) Q[i].setX(screenWidth - Q[i].getDiameter()/2);
+		
+		if (Q[i].getX() <= Q[i].getDiameter()/2) Q[i].setX( Q[i].getDiameter()/2);
+		if (Q[i].getY() <= Q[i].getDiameter()/2) Q[i].setY(Q[i].getDiameter()/2);
+	}
 }
 

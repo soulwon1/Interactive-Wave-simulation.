@@ -33,6 +33,26 @@ public:Vec2D(double ix, double iy) : x(ix), y(iy) {}
 		  y += sy;
 		  x += sx;
 	  }
+	  Vec2D operator+(const Vec2D& vec2) const {
+		  return Vec2D(x + vec2.x, y + vec2.y);
+	  }
+	  Vec2D& operator+=(const Vec2D& other) {
+		  x += other.x;
+		  y += other.y;
+		  return *this;
+	  }
+	  Vec2D operator*(const Vec2D& vec2) const {
+		  return Vec2D(x * vec2.x, y * vec2.y);
+	  }
+	  Vec2D vecTimesScalar(float scalar) {
+		  return Vec2D(x * scalar, y * scalar);
+	  }
+	  Vec2D vecByScalar(float scalar) {
+		  return Vec2D(x / scalar, y / scalar);
+	  }
+	  Vec2D operator-(const Vec2D& vec2) const {
+		  return Vec2D(x - vec2.x, y - vec2.y);
+	  }
 };
 
 class Charge {
@@ -68,11 +88,21 @@ public:Charge(double iq, double im, double d, Vec2D ipos, Vec2D ivel, int icharg
 	  Vec2D getV() {
 		  return vel;
 	  }
+	  Vec2D getPos() { return pos; }
 	  void setQ(double Q) {
 		  q = Q;
 	  }
+	  void addPos(Vec2D V) {
+		  pos += V;
+	  }
 	  void setPos(Vec2D p) {
 		  pos = p;
+	  }
+	  void setY(double y) {
+		  pos.setY(y);
+	  }
+	  void setX(double x) {
+		  pos.setX(x);
 	  }
 	  void setVx(double vx) {
 		  vel.setX(vx);
@@ -89,6 +119,7 @@ public:Charge(double iq, double im, double d, Vec2D ipos, Vec2D ivel, int icharg
 	  void setDiameter(double d) {
 		  diameter = d;
 	  }
+	  double getRad() { return diameter / 2; }
 	  void setIndex(int i) {
 		  chargeIndex = i;
 	  }
@@ -99,10 +130,10 @@ public:Charge(double iq, double im, double d, Vec2D ipos, Vec2D ivel, int icharg
 	  void draw(Graphics^ g) {
 		  Color c = (q < 0) ? Color::DarkBlue : Color::DarkRed;
 		  Pen^ pen = gcnew Pen(c);
-		  g->DrawEllipse(pen, pos.getX()- diameter/2, pos.getY()- diameter/2, diameter, diameter);
+		  g->DrawEllipse(pen, pos.getX()- diameter/2, pos.getY() - diameter / 2, diameter, diameter);
 	  }
 	  void fill(Graphics^ g) {
-		  Color c;
+		  Color c; //CHANGE THIS LATER!!!
 		  if (q ==2) c = Color::SeaGreen;
 		  else { c = (q < 0) ? Color::DarkBlue : Color::DarkRed; }
 		  Brush^ brush = gcnew SolidBrush(c);
@@ -157,7 +188,7 @@ public: walls(int wallWidth, int wallHeight, int iwallN) : width(wallWidth), hei
 	}
 
 	void draw(Graphics^ g) {
-		Brush^ wallBrush = gcnew SolidBrush(Color::FromArgb(200, 100, 0));
+		Brush^ wallBrush = gcnew SolidBrush(Color::FromArgb(220, 70, 20));
 		for (int ix = 0; ix < wx.size(); ++ix) {
 			for (int iy = 0; iy < wy[ix].size(); ++iy) {
 				g->FillRectangle(wallBrush, wx[ix], wy[ix][iy], width, height);

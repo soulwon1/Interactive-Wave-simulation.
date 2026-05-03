@@ -9,16 +9,17 @@ int intensity(Vec2D vec) {
 	if (mag > 255) mag = 255;
 	return mag;
 }
-double arSize(Vec2D vec, double maxSize, double scale) {
+double arSize(Vec2D vec, double maxSize, double minSize, double scale) {
 	double mag = sqrt(vec.getX() * vec.getX() + vec.getY() * vec.getY());
 	double length;
-	if (mag > 1000) { length = log(1 + mag); }
-	else length = mag;
+	if (mag > 1000) { mag = 1000; }
+	length = mag;
 	length *= scale;
 	if (length > maxSize) length = maxSize;
+	if (length < minSize) length = minSize;
 	return length;
 }
-void DrawArrow(Graphics^ g, double x, double y, double theta, double d, double size, Pen^ pen) {
+void DrawArrow(Graphics^ g, double x, double y, double theta, double d, double size, Pen^ pen) { //pass in angle based on E field 
 
 	double hyp = size * 1.2;
 	double arrowSize = size * 0.5;
@@ -29,7 +30,7 @@ void DrawArrow(Graphics^ g, double x, double y, double theta, double d, double s
 
 	double arrowAngle = 3.14159 / 6;
 	double xar1 = x2 - arrowSize * cos(theta - arrowAngle);
-	double yar1 = y2 - arrowSize * sin(theta - arrowAngle);
+	double yar1 = y2 - arrowSize * sin(theta - arrowAngle); //so that the aarow angle is relative to where the E field is pointing
 	double xar2 = x2 - arrowSize * cos(theta + arrowAngle);
 	double yar2 = y2 - arrowSize * sin(theta + arrowAngle);
 
