@@ -1,0 +1,15 @@
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\Alex\source\repos\GitPushTest\RLC Graph V3\CppCLR_WinFormsProject.cpp(1,10): warning C4651: '/D__CLR_VER=40809221' specified for precompiled header but not for current compile
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\Alex\source\repos\GitPushTest\RLC Graph V3\Grapher.h(29,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\Alex\source\repos\GitPushTest\RLC Graph V3\Grapher.h(29,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\Alex\source\repos\GitPushTest\RLC Graph V3\Grapher.h(30,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  RLC Graph V3.vcxproj -> C:\Users\Alex\source\repos\GitPushTest\RLC Graph V3\x64\Debug\RLC Graph V3.exe
